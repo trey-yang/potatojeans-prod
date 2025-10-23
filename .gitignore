@@ -1,0 +1,6 @@
+.source/
+sheret.exe
+sheret.log
+.DS_Store
+_site/
+.jekyll-cache/

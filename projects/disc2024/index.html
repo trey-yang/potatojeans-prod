@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta property="og:title" content="Contact Me | Trey Yang">
+    <meta name="keywords"
+        content="Trey Yang, personal, Boston, Boston University, BU, astronomy, astrophysics, ANU, Australian National University, Canberra" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/ico" href="/style/TY_favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/style/main.css" />
+    <script src="/style/warpspeed.min.js" type="text/javascript"></script>
+    <script src="/components/common.js" type="text/javascript" defer></script>
+</head>
+<title>Disc 2024 | Trey Yang</title>
+
+<body>
+    <component-navbar></component-navbar>
+    <canvas id="canvas" class="warp"></canvas>
+    <component-warpfield></component-warpfield>
+
+    <div id="fillbox">
+        <br>
+        <div id="content-a">
+            <p style="font-size:150%;">Companion videos for my paper: <br><br>
+                <strong>Protostellar disc structure and dynamics during star formation from cloud-scale initial conditions</strong></p>
+            <p><a class="SMButton" href="https://arxiv.org/abs/2501.07626" target="_blank">
+                <img src="arxiv-logo.svg" width="85" style="display: block; margin-top: 3%;">
+                ID: 2501.07626</a>
+                <a class="SMButton" href="https://doi.org/10.1093/mnras/staf1088" target="_blank" style="margin-left: 2%;">MNRAS</a></p>
+            <br>
+            <div class="row">
+                <div class="column1">
+                    <h2>Full Disc - Density</h2>
+                    <p>Column density projection <br> Face-on (left) and Edge-on (right)</p>
+                </div>
+                <div class="column2">
+                    <video width=100% controls>
+                        <source src="density.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video> 
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="column1">
+                    <h2>Velocity and Dispersion Maps</h2>
+                    <p>2D projection in the radial and vertical directions -- of mean radial velocity (top left), rotational velocity (top middle), and vertical velocity (top right); and their respective dispersions</p>
+                </div>
+                <div class="column2">
+                    <video width=100% controls>
+                        <source src="vMapsWithFluc.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video> 
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="column1">
+                    <h2>Cross section - Alfvén Mach Number</h2>
+                    <p>White coloured regions represent Alfvén surfaces where magnetic field balances out gas flow </p>
+                </div>
+                <div class="column2">
+                    <video width=100% controls>
+                        <source src="alfven.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video> 
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="column1">
+                    <h2>Full Disc - Velocity Vectors</h2>
+                    <p>The arrows represent the local gas velocity</p>
+                </div>
+                <div class="column2">
+                    <video width=100% controls>
+                        <source src="bbdisc_velocity.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video> 
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="column1">
+                    <h2>Full Disc - Magnetic Field Lines</h2>
+                    <p>Flickering lines to be fixed soon</p>
+                </div>
+                <div class="column2">
+                    <video width=100% controls>
+                        <source src="bbdisc_magnetics.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video> 
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="column1">
+                    <h2>Cross Section - Velocity Vectors</h2>
+                    <p>Coming soon...</p>
+                </div>
+                <div class="column2">
+                    <img src="/style/sad_face.png" width=150 height=150>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="column1">
+                    <h2>Cross Section - Magnetic Field Lines</h2>
+                    <p>Coming soon...</p>
+                </div>
+                <div class="column2">
+                    <img src="/style/sad_face.png" width=150 height=150>
+                </div>
+            </div>
+            <br><br>
+        </div>
+        <component-footer></component-footer>
+    </div>
+</body>
+
+</html>
