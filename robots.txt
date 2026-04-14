@@ -1,0 +1,3 @@
+user-agent: *
+disallow: /public_files/
+disallow: /resume*
